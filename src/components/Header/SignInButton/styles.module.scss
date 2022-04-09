@@ -1,12 +1,36 @@
+.signInContainer {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+
+    .closeSessionContainer {
+        padding: 0.5rem 1rem;
+        background: var(--gray-850);
+        border: 1px solid var(--gray-800);
+        border-radius: 0.2rem;
+        margin-left: 1rem;
+        cursor: pointer;
+
+        transition: 0.5s;
+
+        &:hover {
+            filter: brightness(0.8);
+            border-color: var(--yellow-500);
+        }
+    }
+}
+
 .signInButton {
+    margin-left: auto;
     height: 3rem;
     border-radius: 3rem;
     background: var(--gray-850);
     border: 0;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid var(--gray-850);
 
     color: var(--white);
     font-weight: bold;
@@ -24,10 +48,11 @@
         margin-left: 1rem;
     }
 
-    transition: filter 0.5s;
+    transition: 0.3s ease-in-out;  
 
     &:hover {
         filter: brightness(0.8);
+        border-color: var(--yellow-500);
     }
 }
 
