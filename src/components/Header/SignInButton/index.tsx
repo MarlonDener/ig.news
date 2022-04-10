@@ -23,6 +23,7 @@ export function SignInButton() {
                 <FiX 
                   color="#cccccc"
                   className={styles.closeIcon}
+                  size={24}
                 />
             </div>
         </div>
