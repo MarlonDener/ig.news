@@ -20,7 +20,6 @@ export function Header () {
                   </ActiveLink>
                   <ActiveLink 
                     href='/posts' 
-                    prefetch 
                     activeClassName={styles.active}
                   >
                     <a>Posts</a>
